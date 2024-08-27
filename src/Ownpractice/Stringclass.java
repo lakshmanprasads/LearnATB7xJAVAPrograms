@@ -2,8 +2,10 @@ package Ownpractice;
 
 import java.util.Locale;
 
-public class Stringclass {
-    public static void main(String[] args) {
+public class Stringclass
+{
+    public static void main(String[] args)
+    {
         //Substring
         String name=new String(" Jack and Jill");
         System.out.println(name.substring(0,4));
