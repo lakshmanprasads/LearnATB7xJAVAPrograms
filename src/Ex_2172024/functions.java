@@ -18,16 +18,20 @@ public class functions
         // fnt 4* with parameter and with return type
         fnt1();
         System.out.println("---------------");
+
         String result = fnt2();
         System.out.println(result);
         System.out.println("---------------");
+
         fnt3("Prasad");
         System.out.println("---------------");
+
         int sum_result=fnt4(3,5);
         System.out.println(sum_result);
 
-    }
-    static void fnt1()
+    }  // end of main fn
+
+    static void fnt1()  //void - no return type
     {
         System.out.println("without parameter and without return type");
     }

@@ -12,5 +12,18 @@ public class LeftTriangleStarPattern
             String str1 = str.substring(i, n);
             System.out.println(str1);
         }
+
+        // Another Method
+
+        int m=5; int j;
+        for (i = 0; i <= m; i++)
+        {
+            System.out.println();
+            for (j = 5; j>i; j--)
+            {
+                System.out.print('*');
+            }
+
+        }
     }
 }
